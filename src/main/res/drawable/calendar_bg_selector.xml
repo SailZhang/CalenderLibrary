@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2012 Square, Inc. -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+  <item app:tsquare_state_range_middle="true">
+    <shape
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="oval"
+        android:useLevel="false" >
+      <padding
+          android:left="2dp"
+          android:top="1dp"
+          android:right="2dp"
+          android:bottom="1dp" />
+      <solid
+          android:color="@color/bg_yellow"/>
+      <size android:width="15dp"
+          android:height="15dp" />
+    </shape>
+  </item>
+  <item android:state_selected="true">
+      <shape
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:shape="oval"
+          android:useLevel="false" >
+          <padding
+              android:left="2dp"
+              android:top="1dp"
+              android:right="2dp"
+              android:bottom="1dp" />
+          <solid
+              android:color="@color/bg_yellow"/>
+          <size android:width="15dp"
+              android:height="15dp" />
+      </shape>
+  </item>
+  <item android:state_pressed="true">
+      <shape
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:shape="oval"
+          android:useLevel="false" >
+          <padding
+              android:left="2dp"
+              android:top="1dp"
+              android:right="2dp"
+              android:bottom="1dp" />
+          <solid
+              android:color="@color/bg_yellow"/>
+          <size android:width="15dp"
+              android:height="15dp" />
+      </shape>
+  </item>
+  <item app:tsquare_state_current_month="false">
+    <color android:color="@android:color/white"/>
+  </item>
+  <item app:tsquare_state_highlighted="true">
+      <shape
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:shape="oval"
+          android:useLevel="false" >
+          <padding
+              android:left="2dp"
+              android:top="1dp"
+              android:right="2dp"
+              android:bottom="1dp" />
+          <solid
+              android:color="@color/calendar_highlighted_day_bg"/>
+          <size android:width="15dp"
+              android:height="15dp" />
+      </shape>
+
+  </item>
+  <item app:tsquare_state_today="true">
+      <shape
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:shape="oval"
+          android:useLevel="false" >
+          <padding
+              android:left="2dp"
+              android:top="1dp"
+              android:right="2dp"
+              android:bottom="1dp" />
+          <solid
+              android:color="@color/calendar_text_active"/>
+          <size android:width="15dp"
+              android:height="15dp" />
+      </shape>
+  </item>
+  <item>
+    <color android:color="@android:color/white"/>
+  </item>
+</selector>
